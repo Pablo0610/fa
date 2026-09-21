@@ -360,7 +360,7 @@ button.head:not(:disabled):active{--hs:1.16;transition-duration:.12s}
 <body>
 <noscript><p style="padding:2rem;font-family:sans-serif;color:#f6ecd2">Esta página necesita JavaScript para mostrar el jardín.</p></noscript>
 
-<main class="scene" id="scene" aria-label="Jardín de 28 flores amarillas">
+<main class="scene" id="scene" aria-label="Jardín de 28 Girasoles">
 
   <div class="sky sky--intro" aria-hidden="true"></div>
   <div class="sky sky--garden" aria-hidden="true"></div>
@@ -373,7 +373,7 @@ button.head:not(:disabled):active{--hs:1.16;transition-duration:.12s}
     <div class="hill hill--mid2" aria-hidden="true"></div>
     <div class="meadow" aria-hidden="true"></div>
     <div class="warm" aria-hidden="true"></div>
-    <div class="layer" id="layerMain" role="group" aria-label="28 flores amarillas por descubrir"></div>
+    <div class="layer" id="layerMain" role="group" aria-label="28 Girasoles por descubrir"></div>
     <div class="grass" id="grass" aria-hidden="true"></div>
     <div class="vignette" aria-hidden="true"></div>
   </div>
@@ -392,9 +392,9 @@ button.head:not(:disabled):active{--hs:1.16;transition-duration:.12s}
   </section>
 
   <header class="hud" id="hud">
-    <h1>28 flores por descubrir</h1>
+    <h1>28 Girasoles por descubrir</h1>
     <p class="count" id="count">Descubiertas: 0 / 28</p>
-    <p class="hint" id="hint">Toca sobre una flor</p>
+    <p class="hint" id="hint">Toca sobre un Girasol</p>
     <button class="link" id="replay" type="button" hidden>Ver el final otra vez</button>
   </header>
   <div class="progress" id="progress" aria-hidden="true"><span id="progressText">🌻 0 / 28</span></div>
@@ -427,7 +427,7 @@ button.head:not(:disabled):active{--hs:1.16;transition-duration:.12s}
       'Florece a tu ritmo... el sol siempre llega.',
       'Que cada mañana te encuentre con ganas de volver a empezar.',
       'Algunas personas llegan y dejan un poquito de luz.',
-      'No todas las flores llaman la atención de la misma manera.',
+      'No todos los Girasoles llaman la atención de la misma manera.',
       'Que la calma te encuentre incluso en los días largos.',
       'Quizá algunas coincidencias no son tan casuales.',
       'Para alguien que hace más bonito cualquier día.',
@@ -446,11 +446,11 @@ button.head:not(:disabled):active{--hs:1.16;transition-duration:.12s}
       'Hay cosas que se aprecian mejor sin prisa.',
       'A veces una casualidad simplemente tiene muy buen gusto.',
       'Hay personas que se parecen a los días buenos.',
-      'Hay flores que solo se abren cuando nadie las presiona.',
+      'Hay Girasoles que solo se abren cuando nadie los presiona.',
       'Algunas sonrisas se quedan en la memoria como una tarde dorada.',
-      'Ojalá encuentres flores en cada camino que elijas.',
+      'Ojalá encuentres Girasoles en cada camino que elijas.',
       'Hay personas que hacen que el mundo se vea un poco más amable.',
-      'Cada flor es distinta, igual que cada persona que vale la pena conocer.'
+      'Cada Girasol es distinto, igual que cada persona que vale la pena conocer.'
     ],
     final1: 'Llegaste hasta el final c:',
     final2: 'Pero entre todas ellas... siempre hay una que termina llamando un poquito más la atención y eres TU. 🌻',
@@ -1029,7 +1029,7 @@ button.head:not(:disabled):active{--hs:1.16;transition-duration:.12s}
       state = 'garden';
       scene.classList.add('ready');
       flowers.forEach((f) => { f.head.disabled = false; });
-      sr.textContent = 'Jardín abierto. Hay 28 flores por descubrir.';
+      sr.textContent = 'Jardín abierto. Hay 28 Girasoles por descubrir.';
       const first = flowers[0].head;
       if (first) first.focus({ preventScroll: true });
     }, reduced ? 1600 : 3300);
